@@ -45,7 +45,7 @@ scale_max: 1.5
 rec: False
         
 # Model hypers
-init_weight: '/media/room/date/fumyou/pretrained_model/CCM/DeepLab_resnet_pretrained_init-f81d91e8.pth'
+init_weight: '/media/zixin/save_model/source_free/LDBE/backbone/DeepLab_resnet_pretrained_init-f81d91e8.pth'
 restore_from: None
 
 snapshot: './snapshot/GTA5/source_only/'
@@ -53,17 +53,17 @@ result: './miou_result/'
 log: './log/'
 plabel: './plabel'
 gta5: {
-        data_dir: '/media/room/date/fumyou/datasets/DA_segmentation/gta5/',
+        data_dir: '/media/zixin/GTA5/',
         data_list: './dataset/list/gta5_list.txt',
         input_size: [1280, 720]
         }
 synthia: {
-        data_dir: '/media/room/date/fumyou/datasets/DA_segmentation/RAND_CITYSCAPES/',
+        data_dir: '/media/zixin/synthia/RAND_CITYSCAPES/',
         data_list: './dataset/list/synthia_list.txt',
         input_size: [1280, 760]
         }
 cityscapes: {
-        data_dir: '/media/room/date/fumyou/datasets/DA_segmentation/cityscapes',
+        data_dir: '/media/zixin/cityscapes/leftImg8bit/train/',
         data_list: './dataset/list/cityscapes_train.txt',
         input_size: [1024, 512]
         }

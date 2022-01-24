@@ -17,7 +17,7 @@ import time, datetime
 import copy
 import numpy as np 
 import random
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
 
 def main():
     torch.manual_seed(1234)
