@@ -3,3 +3,5 @@
 *.cpython-36.pyc
 ./model/__pycache__/*
 ./model/sync_batchnorm/__pycache__/*
+*.yml
+*.txt
